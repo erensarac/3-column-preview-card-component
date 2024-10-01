@@ -7,19 +7,29 @@
 }
 
 @font-face {
-  font-family: Lexend Deca;
+  font-display: block;
+  font-family: 'Lexend Deca';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
-  src: url("./assets/fonts/Lexend_Deca/static/LexendDeca-Regular.ttf");
+  src: url('./assets/fonts/Lexend_Deca/LexendDeca-Regular.eot');
+  src: url('./assets/fonts/Lexend_Deca/LexendDeca-Regular.eot?#iefix') format('embedded-opentype'),
+       url('./assets/fonts/Lexend_Deca/LexendDeca-Regular.woff2') format('woff2'),
+       url('./assets/fonts/Lexend_Deca/LexendDeca-Regular.woff') format('woff'),
+       url('./assets/fonts/Lexend_Deca/LexendDeca-Regular.ttf') format('truetype'),
+       url('./assets/fonts/Lexend_Deca/LexendDeca-Regular.svg#LexendDeca') format('svg');
 }
 
 @font-face {
-  font-family: Big Shoulders Display;
+  font-display: block;
+  font-family: 'Big Shoulders Display';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
-  src: url("./assets/fonts/Big_Shoulders_Display/static/BigShouldersDisplay-Bold.ttf");
+  src: url('./assets/fonts/Big_Shoulders_Display/BigShouldersDisplay-Bold.eot');
+  src: url('./assets/fonts/Big_Shoulders_Display/BigShouldersDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+       url('./assets/fonts/Big_Shoulders_Display/BigShouldersDisplay-Bold.woff2') format('woff2'),
+       url('./assets/fonts/Big_Shoulders_Display/BigShouldersDisplay-Bold.woff') format('woff'),
+       url('./assets/fonts/Big_Shoulders_Display/BigShouldersDisplay-Bold.ttf') format('truetype'),
+       url('./assets/fonts/Big_Shoulders_Display/BigShouldersDisplay-Bold.svg#BigShouldersDisplay') format('svg');
 }
 
 html {
